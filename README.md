@@ -8,7 +8,7 @@ visualize spending, and split shared expenses with a group. Built with
 
 ```
 Browser (React)  ──HTTP/JSON──▶  Express API  ──Mongoose──▶  MongoDB
-   :5173                            :5000                    (Atlas)
+   :https://extrack-two.vercel.app/              :5000                    (Atlas)
 ```
 
 - **React (frontend/)** renders the UI and calls the API for data. It holds
@@ -103,8 +103,8 @@ just your hosting provider's IPs (optional, but more secure than `0.0.0.0/0`).
 ### 3. Frontend → Vercel
 1. On [vercel.com](https://vercel.com), **New Project**, import the same repo.
 2. Root directory: `frontend`. Framework preset: Vite.
-3. Add environment variable: `VITE_API_URL = https://ledger-api.onrender.com/api`.
-4. Deploy. Note the URL Vercel gives you, e.g. `https://ledger.vercel.app`.
+3. Add environment variable: `VITE_API_URL = https://Extrack-api.onrender.com/api`.
+4. Deploy. Note the URL Vercel gives you,  `(https://extrack-two.vercel.app/)`.
 
 ### 4. Connect them
 Go back to Render → your backend's environment variables → set
